@@ -1,0 +1,21 @@
+Category,Scale,Description
+Time (t),1,1–8 hours
+Time (t),2,8–24 hours
+Time (t),3,Several days
+Time (t),4,Weeks
+Time (t),5,Months
+Distance (d),1,Just you (the individual)
+Distance (d),2,Your team
+Distance (d),3,Your platoon
+Distance (d),4,The Battery
+Distance (d),5,The battalion and beyond
+Intensity (i),1,"Mild curiosity, testing boundaries"
+Intensity (i),2,Somewhat bold
+Intensity (i),3,Pretty bold
+Intensity (i),4,Very aggressive
+Intensity (i),5,"Full send, IDGAF mode"
+FA,1,Small prank or decision
+FA,2,Moderate action with some resources
+FA,3,Large action affecting multiple areas
+FA,4,Significant stunt with major impact
+FA,5,Massive event or operation involving everyone
