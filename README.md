@@ -1,92 +1,112 @@
 # FAFO Calculator
 
-Hey there.
+Welcome to the **Fuck Around and Find Out Calculator**.
 
-This is the Fuck Around and Find Out Calculator.
-
-Basically, it tells you exactly how much you’re gonna Find Out depending on how much you decided to Fuck Around. Super scientific. Sort of.
+This handy little tool calculates exactly how much you're gonna Find Out depending on how much you decided to go full send, as well as how long, how far, and how hard you kept at it. Think of it like risk assessment...but with more honesty and less PowerPoint.
 
 ---
 
 ## The Formula
 
+```
 FindOut(FA) = e^(K(t, d, i) * FA)
+```
 
 Where:
 
-- FA = How much you fucked around
-- K(t, d, i) = How badly you set yourself up, based on:
-  - Time (t) – How long you kept going
-  - Distance (d) – How many people you dragged into your nonsense
-  - Intensity (i) – How hard you went for it
+- **FA** = How much you fucked around (the overall size of your decision)
+- **K(t, d, i)** = How much your Time, Distance, and Intensity cranked up the consequences:
 
+```
 K(t, d, i) = 0.125 * t + 0.5 * d + 0.25 * i
+```
 
 ---
 
-## Scales
+## The Scales
 
-Time (t):
-1 = Just a quick moment
-2 = A few minutes
-3 = Half an hour or so
-4 = A couple hours
-5 = All damn day
+**Time (t): How long you were messing around**
+- 1 = 1–8 hours
+- 2 = 8–24 hours
+- 3 = Several days
+- 4 = Weeks
+- 5 = Months
 
-Distance (d):
-1 = Only you
-2 = You and maybe one buddy
-3 = A small group
-4 = Everyone you work with
-5 = Literally everybody
+**Distance (d): How many people got pulled into this**
+- 1 = Just you (good job, Private)
+- 2 = Your team
+- 3 = The whole platoon
+- 4 = The Battery
+- 5 = The battalion and beyond (nice work, everybody knows now)
 
-Intensity (i):
-1 = Mild curiosity
-2 = Testing the waters
-3 = Getting pretty bold
-4 = Full commitment
-5 = Zero chill, total chaos
+**Intensity (i): How hard you went**
+- 1 = Mild curiosity, "just seeing what happens"
+- 2 = Somewhat bold
+- 3 = Pretty bold
+- 4 = Very aggressive
+- 5 = Full send, IDGAF mode
+
+**FA (the Big One):**
+Examples of what defines FA:
+- Was it a small prank or a massive stunt?
+- Did you burn a little time or half the budget?
+- How many areas did you impact?
+- How big was the overall action?
 
 ---
 
-## How to Use This Thing
+## How to Use
 
-1. Make sure you have Python 3 on your machine.
-2. Download or clone this project.
-3. Run:
+1. Make sure you have Python 3 installed.
+2. Download or clone this repo.
+3. Open a terminal and run:
 
-   python3 fafo_calculator.py
+   ```
+   python fafo_calculator.py
+   ```
 
-4. Answer the questions about your level of fuckery.
-5. Find out exactly how bad it’s gonna get.
+4. Answer the questions about your operation.
+5. Receive your official assessment of how thoroughly you will Find Out.
 
 ---
 
 ## Example
 
-How long did you fuck around? (Time 1-5): 4
-How many people were involved? (Distance 1-5): 3
-How intense was the fuckery? (Intensity 1-5): 5
-How much did you fuck around overall? (FA number): 2
+```
+Time scale (how long you were fucking around):
+1 = 1-8 hours
+...
+Enter Time (1-5): 3
+
+Distance scale (how many were affected):
+1 = Just you
+...
+Enter Distance (1-5): 4
+
+Intensity scale (how hard you went):
+1 = Mild testing
+...
+Enter Intensity (1-5): 5
+
+FA (How big was the overall action?)
+Enter Fuck Around level: 3
 
 Alright, here’s what you got yourself into:
-K(t, d, i) = 3.250
-FindOut(FA) = e^(3.250 * 2.0) = 665.141
+K(t, d, i) = 3.000
+FindOut(FA) = e^(3.000 * 3.0) = 8103.084
 
-Translation: You’re about to find out. Big time.
+Assessment of Consequences:
+Result: UCMJ action likely. You have officially found out.
+```
 
 ---
 
 ## Disclaimer
 
-This is just for fun.
-If you actually do find out, that’s on you.
+This project is for entertainment (and a little perspective). If you actually do find out, that's on you and probably your chain of command.
 
 ---
 
 ## License
 
-Do whatever you want with this.
-Just don’t blame me when you find out.
-
-
+Do whatever you want with this. Just don’t blame me when you’re standing at parade rest explaining yourself.
