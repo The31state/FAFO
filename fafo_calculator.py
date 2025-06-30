@@ -77,31 +77,47 @@ def main():
     print(f"K(t, d, i) = {k:.3f}")
     print(f"FindOut(FA) = e^({k:.3f} * {fa}) = {findout:.3f}")
 
-    # Interpret the FindOut value with 10 levels
+    # Interpret the FindOut value with 20 levels
     print("\nAssessment of Consequences:")
 
-    if findout < 2:
+    if findout < 1:
+        print("Result: Practically nothing happened. You lucked out.")
+    elif findout < 2:
         print("Result: Very minor screw-up. You get a stern look and a gentle reminder not to be a dumbass.")
+    elif findout < 3:
+        print("Result: Light corrective training. Expect 20 push-ups and a motivational speech.")
     elif findout < 5:
-        print("Result: Light corrective training. Expect some push-ups.")
-    elif findout < 10:
+        print("Result: You’ll be doing push-ups until your arms remember not to repeat this.")
+    elif findout < 7:
         print("Result: Mild embarrassment. You’ll be sweeping sunshine off the sidewalk.")
-    elif findout < 25:
-        print("Result: Classic punishment. Hope you enjoy holding the monkey fucker position for a while.")
-    elif findout < 50:
+    elif findout < 10:
+        print("Result: You’re going to hold the monkey fucker position for a solid 60 minutes.")
+    elif findout < 15:
         print("Result: Extra duty. You’ll be policing trash all day.")
+    elif findout < 25:
+        print("Result: Expect to stand at parade rest outside the office for an hour.")
+    elif findout < 35:
+        print("Result: You’re getting a negative counseling statement and probably a new nickname.")
+    elif findout < 50:
+        print("Result: You’ll be moving sandbags back and forth until further notice.")
+    elif findout < 75:
+        print("Result: Hope you enjoy guarding an empty parking lot in full kit.")
     elif findout < 100:
-        print("Result: Serious talk. Negative counseling and a motivational essay about accountability.")
-    elif findout < 250:
-        print("Result: You’re about to guard an empty parking lot all night at parade rest.")
-    elif findout < 500:
+        print("Result: Negative counseling plus writing a 500-word essay on accountability.")
+    elif findout < 150:
+        print("Result: You’re about to be on extra duty every weekend this month.")
+    elif findout < 200:
+        print("Result: Your First Sergeant is going to have a personal chat with you. It won’t be fun.")
+    elif findout < 300:
         print("Result: You’re headed for an Article 15. Start sweating.")
-    elif findout < 1000:
+    elif findout < 500:
         print("Result: Field Grade Article 15 incoming. Hope you like paperwork.")
+    elif findout < 750:
+        print("Result: Your chain of command will know you by first name—never a good sign.")
+    elif findout < 1000:
+        print("Result: You’re about to get recommended for separation counseling.")
     else:
         print("Result: UCMJ action likely. You have officially found out.")
 
 if __name__ == "__main__":
     main()
-
-1
