@@ -14,8 +14,15 @@ Intensity (i),2,Somewhat bold
 Intensity (i),3,Pretty bold
 Intensity (i),4,Very aggressive
 Intensity (i),5,"Full send, IDGAF mode"
-FA,1,Small prank or decision
-FA,2,Moderate action with some resources
-FA,3,Large action affecting multiple areas
-FA,4,Significant stunt with major impact
-FA,5,Massive event or operation involving everyone
+
+FA=
+1,<2,Very minor screw-up. You get a stern look and a gentle reminder not to be a dumbass.
+2,<5,Light corrective training. Expect some push-ups.
+3,<10,Mild embarrassment. You’ll be sweeping sunshine off the sidewalk.
+4,<25,Classic punishment. Hope you enjoy holding the monkey fucker position for a while.
+5,<50,Extra duty. You’ll be policing trash all day.
+6,<100,Serious talk. Negative counseling and a motivational essay about accountability.
+7,<250,You’re about to guard an empty parking lot all night at parade rest.
+8,<500,You’re headed for an Article 15. Start sweating.
+9,<1000,Field Grade Article 15 incoming. Hope you like paperwork.
+10,1000+,UCMJ action likely. You have officially found out.
