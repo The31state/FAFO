@@ -77,16 +77,24 @@ def main():
     print(f"K(t, d, i) = {k:.3f}")
     print(f"FindOut(FA) = e^({k:.3f} * {fa}) = {findout:.3f}")
 
-    # Interpret the FindOut value
+    # Interpret the FindOut value with 10 levels
     print("\nAssessment of Consequences:")
 
-    if findout < 3:
-        print("Result: Minor screw-up. Expect some push-ups and an eye roll.")
+    if findout < 2:
+        print("Result: Very minor screw-up. You get a stern look and a gentle reminder not to be a dumbass.")
+    elif findout < 5:
+        print("Result: Light corrective training. Expect some push-ups.")
     elif findout < 10:
-        print("Result: You’ll probably get extra duty and a counseling statement.")
+        print("Result: Mild embarrassment. You’ll be sweeping sunshine off the sidewalk.")
+    elif findout < 25:
+        print("Result: Classic punishment. Hope you enjoy holding the monkey fucker position for a while.")
     elif findout < 50:
-        print("Result: Negative counseling. Maybe a written reprimand.")
-    elif findout < 200:
+        print("Result: Extra duty. You’ll be policing trash all day.")
+    elif findout < 100:
+        print("Result: Serious talk. Negative counseling and a motivational essay about accountability.")
+    elif findout < 250:
+        print("Result: You’re about to guard an empty parking lot all night at parade rest.")
+    elif findout < 500:
         print("Result: You’re headed for an Article 15. Start sweating.")
     elif findout < 1000:
         print("Result: Field Grade Article 15 incoming. Hope you like paperwork.")
@@ -95,3 +103,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+1
